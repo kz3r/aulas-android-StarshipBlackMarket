@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/shipImg"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="300dp" />
+
+
+    <!-- MANUFACTURER -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fabricante: "
+        android:id="@+id/labelShipManufacturer"
+        android:password="false"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#282828"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Corellian Inc."
+        android:id="@+id/txtShipManufacturer"
+        android:paddingLeft="10dp" />
+
+    <!-- SHIP MODEL -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Modelo Original: "
+        android:id="@+id/labelShipModel"
+        android:password="false"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#282828" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="XT-160"
+        android:id="@+id/txtShipModel"
+        android:paddingLeft="10dp" />
+
+    <!-- MAX SPEED -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Velocidade Máxima: "
+        android:id="@+id/labelShipSpeed"
+        android:password="false"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#282828" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1.050 km/h"
+        android:id="@+id/txtShipSpeed"
+        android:paddingLeft="10dp" />
+
+    <!-- VALUE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Valor: "
+        android:id="@+id/labelShipValue"
+        android:password="false"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#282828" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="C$ 350,000"
+        android:id="@+id/txtShipValue"
+        android:paddingLeft="10dp" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/ovalshape"
+        android:src="@mipmap/payment_method"
+        android:id="@+id/btnCart" />
+
+
+</LinearLayout>
